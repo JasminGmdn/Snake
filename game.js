@@ -114,7 +114,7 @@ if(yVelocity === 0 && xVelocity === 0){
 function drawScore(){
   ctx.fillStyle = "#8991DB";
   ctx.font = "10px Verdana";
-  ctx.fillText("Score" + score, canvas.width-50, 10);
+  ctx.fillText("Score " + score, canvas.width-50, 10);
 }
 
 function clearScreen(){
